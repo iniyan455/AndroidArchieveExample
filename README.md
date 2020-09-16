@@ -26,9 +26,9 @@ Step 5:
 
 
 ## Add dependency :- 
-
-   implementation fileTree(dir: "libs", include: ["*.jar"])
-   implementation project(path: ':pt-sdk-debug')
+     implementation fileTree(dir: "libs", include: ["*.jar"])
+   
+     implementation project(path: ':pt-sdk-debug')
 
 
     
